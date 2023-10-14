@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bbc6fa;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 280px;
+    height: 300px;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15);
+}
+
+input[type="password"],
+input[type="email"]{
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 6px;
+    width:200px;
+    height:27px;
+    padding: 2px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 2px;
+}
+
+::placeholder{
+    padding-left: 5px;
+}
+select{
+    background: rgb(23,124,229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23,124,229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+}
+
+input[type="submit"]{
+    background: rgb(23,124,229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23,124,229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+form a{
+    text-decoration: none;
+    font-size: 15px;
+}
+form a:link{
+    color:  rgb(23,124,229);
+}
+form a:hover{
+    text-decoration: underline 1.5px;
+}
+form a:active{
+    color: rgb(23,124,229);
+}
+form a:visited{
+    color:  rgb(23,124,229);
+}

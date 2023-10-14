@@ -1,0 +1,17 @@
+User
+----
+srisankar2001@gmail.com  -> 123
+sam@gmail.com  -> 100
+
+Admin
+------
+admin1@gmail.com  -> 100
+admin2@gmail.com  -> 200
+admin3@gmail.com  -> 300
+
+
+Super Admin
+-----------
+sadmin1@gmail.com  -> 100
+sadmin2@gmail.com  -> 200
+sadmin3@gmail.com  -> 300
